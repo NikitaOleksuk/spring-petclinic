@@ -1,6 +1,6 @@
 services:
   pet-app:
-    image: nikitaoleksuk/petclinic:v1
+    image: nikitaoleksuk/petclinic:latest
     container_name: pet-prod
     ports:
       - "80:8080"
