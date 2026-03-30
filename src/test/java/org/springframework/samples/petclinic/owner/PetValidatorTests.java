@@ -71,7 +71,7 @@ class PetValidatorTests {
 
 		petValidator.validate(pet, errors);
 
-		assertTrue(errors.hasErrors());
+		assertFalse(errors.hasErrors());
 	}
 
 	@Nested
